@@ -19,6 +19,7 @@ async function main() {
   ]);
 
   for await (const chunk of result) {
+    // AIMessageChunk
     console.log("chunk", chunk);
   }
 }
