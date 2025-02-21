@@ -13,6 +13,7 @@
   "dependencies": {
     "@ai-sdk/deepseek": "^0.1.11",
     "@ai-sdk/openai": "^1.1.13",
+    "@llamaindex/openai": "^0.1.53",
     "@llamaindex/vercel": "^0.0.12",
     "llamaindex": "^0.9.2"
   },

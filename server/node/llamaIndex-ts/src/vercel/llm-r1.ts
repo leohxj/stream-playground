@@ -25,7 +25,7 @@ async function main() {
   for await (const chunk of stream) {
     // 没有带出 reasoning 信息
     console.log("chunk", chunk);
-    process.stdout.write(chunk.delta);
+    // process.stdout.write(chunk.delta);
   }
 }
 
